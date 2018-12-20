@@ -1,0 +1,290 @@
+.cuerpo {
+	background:#F5EE31;
+	width: 300px;
+	height:400px;
+	border:5px solid #000;
+	position: relative;
+	margin:50px auto;
+	overflow:hidden;
+}
+
+
+
+/*----- ----- ----- OJOS ----- ----- -----*/
+.ojos {
+	position: absolute;
+	left:45px;
+	top:40px;
+}
+
+	.ojitos{
+		position: relative;
+		border-radius:50%;
+	}
+
+		.ojo {
+			width:100px;
+			height:100px;
+			margin-right:-17px;
+			display: inline-block;
+			background:#fff;
+			border:5px solid #000;
+		}
+
+			.ojo_externo {
+				width: 50px;
+				height:50px;
+				top:20px;
+				left:25px;
+				background:#00AEEF;
+				border:3px solid #000;
+			}
+
+			.ojo_interno {
+				width:30px;
+				height:30px;
+				top:10px;
+				left:10px;
+				background:#000;
+			}
+
+.pestanas {
+	position:absolute;
+	top:-30px;
+	left:13px;
+}
+
+.pestana {
+	width:15px;
+	height:5px;
+	background:#000;
+	transform:rotate(90deg);
+	margin-right:10px;
+	display:inline-block;
+}
+
+.pestana.primera {
+	position:relative;
+	top:10px;
+	transform: rotate(45deg);
+}
+
+.pestana.tercera {
+	position:relative;
+	top:10px;
+	transform: rotate(-45deg);
+}
+
+/*----- ----- ----- NARIZ ----- ----- -----*/
+.nariz {
+	width:20px;
+	height:40px;
+	background:#F5EE31;
+	position: relative;
+	top:110px;
+	left:130px;
+	border:5px solid #000;
+	border-bottom:5px solid transparent;
+	border-radius:42.5%;
+	z-index:2;
+}
+
+/*----- ----- ----- BOCA ----- ----- -----*/
+.boca {
+	width:200px;
+	height:80px;
+	position:relative;
+	top:70px;
+	left:50px;
+	border-radius:50%;
+	border-bottom:5px solid #000;
+}
+.dientes {
+	position:relative;
+	top:80px;
+	left:65px;
+
+}
+.diente {
+	width:20px;
+	height:20px;
+	background:#fff;
+	border:5px solid #000;
+	display: inline-block;
+}
+
+.mejilla {
+	width:30px;
+	height:20px;
+	position:absolute;
+	top:30px;
+	border:3px solid #F1592A;
+	border-bottom:5px transparent;
+	border-radius:50% 50% 20% 20%;
+}
+
+.mejilla.primera {
+	left:-15px;
+}
+
+.mejilla.segunda {
+	left:180px;
+}
+
+/*----- ----- ----- CAMISA ----- ----- -----*/
+.camisa {
+	width:100%;
+	height:50px;
+	background:#fff;
+	position: absolute;
+	bottom:50px;
+	border-top:5px solid #000;
+	overflow:hidden;
+}
+
+.cuello {
+	width:50px;
+	height:30px;
+	position: absolute;
+	background:#fff;
+	top:-25px;
+	border:5px solid #000;
+	transform: rotate(30deg);
+}
+
+.cuello.primero {
+	left:60px;
+}
+
+.cuello.segundo {
+	left:180px;
+	transform: rotate(-30deg);
+}
+
+.cuello_corbata {
+	width:40px;
+	height:40px;
+	background:#F00200;
+	border:5px solid #000;
+	position:absolute;
+	left:125.5px;
+	top:-30px;
+	transform: rotate(45deg);
+}
+
+.cola_corbata {
+	width:55px;
+	height:55px;
+	background:#F00200;
+	border:5px solid #000;
+	position:absolute;
+	left:118px;
+	bottom:0px;
+	z-index:2;
+	transform: rotate(45deg);
+}
+
+/*----- ----- ----- PANTALONES ----- ----- -----*/
+.pantalones {
+	width:100%;
+	height:50px;
+	background:#6A3D13;
+	position: absolute;
+	bottom:0%;
+	border-top:5px solid #000; 
+	z-index:1;
+}
+
+hr{
+	margin-top:10px;
+	border: dashed 15px #000;
+}
+
+/*----- ----- ----- POROS ----- ----- -----*/
+.poro {
+	background:#C0A402;
+	height:40px;
+	width:40px;
+	position:absolute;
+	border-radius:50%;
+}
+
+.poro.primero {
+	top:230px;
+	left:20px;
+	height:50px;
+	width:50px;
+}
+
+.poro.segundo {
+	top:200px;
+	left:280px;
+}
+
+.poro.tercero {
+	top:50px;
+	left:260px;
+	height:15px;
+	width:15px;
+}
+
+.poro.cuarto {
+	top:15px;
+	height:30px;
+	width:30px;
+	left:15px;
+}
+
+.poro.quinto {
+	top:250px;
+	left:200px;
+}
+
+
+.cuerpo:hover .ojo{
+	background-color:#F5EE31;
+	border:none;
+	border-bottom:5px solid #000;
+	top:-20px;
+	margin-right:-0px;
+}
+
+.cuerpo:hover .pestanas{
+	transform:rotate(180deg);
+	bottom:-25px;
+	left:2px;
+}
+
+.cuerpo:hover .ojo_externo{
+	display:none;
+}
+
+.ojos:hover + div{
+	height:20px;
+	top:130px;
+}
+
+.ojos:hover ~ div{
+	box-shadow:0px -11px 20px #000;
+}
+
+.boca:hover {
+	border-bottom:none;
+	border-top:5px solid #000;
+	top:140px;
+}
+
+.boca:hover .dientes{
+	top:-3px;
+}
+
+.boca:hover > div{
+	transform:rotate(180deg);
+	height:15px;
+}
+
+.diente:nth-child(1):hover + .diente:nth-child(2){
+	display:none;
+}
+
+
