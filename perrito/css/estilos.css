@@ -1,0 +1,206 @@
+.tez{
+	width: 700px;
+	height: 700px;
+	top: 100px;
+	left: 400px;
+	background-color: #ff9933;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+
+}
+.oreja1{
+    width:550px; 
+    height:160px; 
+    background:#994C00; 
+    transform: rotate(90deg);
+    top: -360px;
+    margin-left:750px;
+    position: relative;
+    border-radius: 50%;
+    transform: rotate(260deg);
+    }
+ .oreja2{
+    width:550px; 
+    height:160px; 
+    background:#994C00; 
+    transform: rotate(90deg);
+    top: -530px;
+    margin-left:200px;
+    position: relative;
+    border-radius: 50%;
+    transform: rotate(100deg);
+    }
+  .cuello{
+  	width: 0; 
+  	height: 0; 
+  	border-left: 370px solid transparent; 
+  	border-right: 370px solid transparent; 
+  	border-top: 360px solid #ff9933;
+  	-moz-border-radius: 50%; 
+  	-webkit-border-radius: 50%; 
+  	border-radius: 50%;
+  	top: -800px;
+  	left:-140px;
+  	margin-left:520px;
+  	transform: rotate(180deg);
+  	position: relative;
+  }
+
+  .ojo1{
+  	width: 180px;
+	height: 180px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	top: -780px;
+	right: -550px;
+	border:5px solid #000;
+	position: relative;
+  }
+  .ojo2{
+  	width: 180px;
+	height: 180px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	top: -780px;
+	right: -565px;
+	border:5px solid #000;
+	position: relative;
+  }
+  .pupila1{
+  	width: 130px;
+	height: 130px;
+	top: -925px;
+	right: -790px;
+	background-color: #0066cc;
+	border-radius: 50%;
+	display: inline-block;
+	border:5px solid #000;
+	position: relative;
+  }
+ .pupila2{
+  	width: 130px;
+	height: 130px;
+	top: -925px;
+	right: -435px;
+	background-color: #0066cc;
+	border-radius: 50%;
+	display: inline-block;
+	border:5px solid #000;
+	position: relative;
+  }
+  
+ 
+ .nariz
+{
+	width:100px; 
+    height:70px; 
+    background:#F99; 
+    transform: rotate(90deg);
+    top: -500px;
+    margin-left:700px;
+    position: relative;
+    border:5px solid #000;
+    border-radius: 50%;
+    transform: rotate(180deg);  
+    
+}
+ 
+ 
+ .boca{
+	width: 200px;
+	height: 80px;
+	position: relative;
+	top: -1150px;
+	left: 650px;
+	border-radius: 50%;
+	border-bottom: 5px solid #000;
+}
+
+.lengua{
+	width:70px; 
+    height:40px; 
+    background:red; 
+    transform: rotate(90deg);
+    top: -1140px;
+    margin-left:720px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: rotate(90deg);  
+
+}
+
+.linea{
+	width: 225px;
+	height: 50px;
+	position: relative;
+	top: -1260px;
+	left: 670px;
+	border-bottom: 5px solid #000;
+	transform: rotate(90deg); 
+	border-radius: 10%;
+}
+
+.peca1{
+	width: 10px;
+	height: 10px;
+	top: -500px;
+	right: -900px;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
+.peca2{
+	width: 10px;
+	height: 10px;
+	top: -500px;
+	right: -850px;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
+.peca3{
+	width: 10px;
+	height: 10px;
+	top: -480px;
+	right: -850px;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
+.peca4{
+	width: 10px;
+	height: 10px;
+	top: -490px;
+	right: -600px;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
+.peca5{
+	width: 10px;
+	height: 10px;
+	top: -490px;
+	right: -550px;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
+.peca6{
+	width: 10px;
+	height: 10px;
+	top: -470px;
+	right: -550px;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
